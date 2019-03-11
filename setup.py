@@ -7,6 +7,7 @@ from shutil import rmtree
 from setuptools import setup, find_packages, Command
 
 about = {}
+
 here = os.path.abspath(os.path.dirname(__file__))
 
 with io.open(os.path.join(here, 'dingtalkchatbot', '__about__.py'), encoding='utf-8') as f:
